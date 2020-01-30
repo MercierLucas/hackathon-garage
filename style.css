@@ -1,0 +1,55 @@
+html,body{
+    height: 100%;
+}
+
+.leftmenu{
+    background-color: red;
+    border-right: 1px solid rgba(0,0,0,.1);
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+
+}
+@media screen and (min-width: 900px) {
+    .sticky{
+        position:fixed;
+        border-right: 1px solid rgba(0,0,0,.1);
+        min-width: 10%;
+        max-width: 30%;
+    }
+  }
+
+
+.sticky a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    text-decoration: none;
+}
+
+.sticky a:hover{
+    background-color: #E2E3E5;
+    text-decoration: none;
+    color: #818181;
+}
+
+
+.selectedNav{
+    
+    background-color: #E2E3E5;
+}
+
+.main{
+    background-color: white;
+    height: 100vh;
+    
+}
+
+.sideinfos{
+    border-left: 1px solid rgba(0,0,0,.1);
+}
+
+.sublist a{
+    font-size: 1em !important;
+}
