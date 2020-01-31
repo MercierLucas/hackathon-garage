@@ -10,21 +10,18 @@
 </head>
 <body>
     <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="home.html">
             <img src="/res/img/garage_logo.png" width="50" height="50" alt="">
         </a>
         <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Active</a>
+              <a class="nav-link active" href="home.html">Accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="planning">Planning</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Obtenir de l'aide</a>
             </li>
           </ul>
     </nav>
@@ -63,12 +60,18 @@
 
                 <div id="challenge">
                     <h3>Challenge</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto numquam incidunt consectetur temporibus ab, odit vitae quis commodi cum similique accusamus amet laboriosam placeat corporis a? Deserunt velit non quis?</p>
+                    <p>De plus en plus les CV sont reçus, analysés et triés par des algorithmes avant d’arriver devant un potentiel recruteur. Imaginez une façon innovante de rendre plus enrichissant la lecture d’un CV et la compréhension des points clés. En comprenant le parcours d’un CV, inventer la procédure de recrutement de demain. La réalité augmentée est un moyen par excellence pour mettre en relation le réel et le numérique, la matière de la donnée, la vision et le toucher. </p>
+                    <p>Exemples de cas d’usage :</p>
+                    <ul>
+                        <li>Un recruteur reçoit une pile de CV : comment rapidement en tirer les éléments pertinents et les faire ressortir en utilisant l’AR.</li>
+                        <li>Utiliser l’AR afin de faire ressortir certains éléments clés d’un CV ou lui attribuer une note.</li>
+                        <li>Aider le recruteur à matcher des offres d’emplois avec des CV utilisant de l’IA.</li>
+                    </ul>
                 </div>
 
                 <div id="dataset">
                     <h3 >Dataset</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem magni enim fugit beatae fugiat veniam, inventore debitis aliquam numquam impedit corrupti veritatis cum maxime! Quia sunt consequatur voluptates ea nam.</p>    
+                    <p>Vous pouvez retrouver le dataset dans le <a href="res/files/DossierHacker.pdf" target="_blank">manuel</a>.</p>
                 </div>
 
                 <div id="install">
@@ -76,7 +79,7 @@
                     <p>Si vous êtes nouveau et que vous ne savez pas quoi utiliser comme outils nous vous conseillons d'installer la suite Anaconda. Celle-ci contient toutes les dépendances majeures dont vous aurez besoin ( du moins au début) lors de ce challenge. La suite vient avec plusieurs outils dont <a href="https://jupyter.org/" target="_blank">Jupiter notebook</a>.</p>
                     <p>Pour l'installer rien de plus simple il vous suffit de vous rendre sur la page de <a href="https://www.anaconda.com/distribution/"> téléchargement d'anaconda</a> (vous aurez peut être besoin de redémarrer votre ordinateur)</p>
                     <p><i>Si vous n'avez pas python installé, choisissez la version 3.7 (la plus récente) pour un meilleur support des dépendances</i></p>
-                    <div class="text-center"><img src="res/img/install_conda.png" alt=""></div>
+                    <div class="text-center"><img src="res/img/install_conda.png" alt="" style="width: 70%;"></div>
 
                     <div class="alert alert-info mt-3" role="alert">
                         Il est également possible d'utiliser l'alternative proposé par Google: <a href="https://colab.research.google.com" target="_blank">Google Colab</a>, un outil collaboratif basé sur les notebooks.
@@ -102,6 +105,22 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Obtenir de l'aide</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Vous êtes complétement bloqué? Vous avez une question et vous ne trouvez pas la réponse?</p>
+              <p>Envoyez un message à la <a href="https://www.facebook.com/garageisep/" target="_blank">page facebook</a> de GarageISEP</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
 </body>
 

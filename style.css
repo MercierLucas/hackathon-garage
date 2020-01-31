@@ -53,3 +53,37 @@ html,body{
 .sublist a{
     font-size: 1em !important;
 }
+
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color:white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.outline_btn_white{
+    width: 100%;
+    background:none !important;
+    border:1px solid white !important;
+    color:white !important;
+}
+
+.outline_btn_white:hover{
+    background-color:white!important;
+    color:#060821 !important;
+}
+
+
+.custom-card{
+    border:1px solid rgba(0,0,0,.1);
+    margin:10px;
+}
+  
